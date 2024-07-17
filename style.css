@@ -1,0 +1,272 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+
+    background-color: #1F2937;
+    width:100%;
+    height:540px;
+
+
+}
+
+main{
+
+    height:900px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.mainheaderleft
+{
+
+    position:relative;
+    top:120px;
+    bottom:100px;
+    left:400px;
+    width:500px;
+}
+
+
+.bigtext{
+
+    font-size:48px;
+    font-weight:800;
+    color:#F9FAF8;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.body{
+
+     display:flex;
+     flex-direction: column;
+    
+}
+
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.navbarleft{
+  margin-top: 20px;
+  font-size:24px;
+  color: #F9FAF8;
+  font:Arial;
+}
+
+.navbarright{
+    display:flex;
+    margin-top: 20px;
+    gap:20px;
+    font-size:18px;
+    color:#E5E7EB;
+
+}
+
+
+.heading{
+    font-size:48px;
+    font:bolder;
+    color:#F9FAF8
+}
+
+.smalltext{
+    color:#E5E7EB;
+    font-size:18px;
+
+}
+
+
+.signup-button > button{
+
+
+       
+    position:relative;
+    top:10px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    height:30px;
+    width:100px;
+    border-radius: 3px;
+    font-size:20px;
+    padding:2px;
+    border:none;
+   
+}
+
+.mainheaderright{
+    position:relative;
+    bottom:90px;
+    left:850px;
+    width: 720px;
+    height: 360px;
+
+
+}
+
+.heading{
+     
+    height:131px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.heading > h1{
+    
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:800px;
+
+     
+
+}
+.card1 , .card2, .card3, .card4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:25px;
+}
+
+.card
+{
+
+    width: 240px;
+    height:240px;
+    border-color:#3882F6 ;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.cards{
+
+    display:flex;
+    height:350px;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.quote{
+
+    margin-top: 100px; 
+    height:300px;
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.quotetext{
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#1F2937
+}
+
+.author{
+    position: relative;
+    left: 250px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+
+    height:200px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.bluebox{
+
+    height:100px;
+    width: 900px;
+    border-radius: 2%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button2nd > button{
+    
+  
+    height:30px;
+    width:100px;
+    border-radius: 3px;
+    font-size:20px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border:solid;
+    color:white;
+    border-width: 2px ;
+    position:relative;
+    left:80px;
+
+
+
+}
+
+.first{
+
+    color:white;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second{
+
+    color:#F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+     
+    height: 125px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+
+}
+
+.imgcontainer{
+
+ background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg);
+ height:236px;
+ width: 500px;
+ background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
